@@ -118,3 +118,15 @@ button {
   display: flex;
   padding-top: 3px;
 }
+
+/* PLAN */
+
+#plan {
+  margin-top: 200px;
+  width: 100%;
+  display: flex;
+}
+
+#plan > .col-100 > .button {
+  display: inline-block;
+}
