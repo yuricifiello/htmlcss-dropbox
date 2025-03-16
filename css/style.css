@@ -50,10 +50,6 @@ li {
   padding-right: 0.5rem;
 }
 
-.col-1-2 {
-  width: calc(100 / 3);
-}
-
 .page-header li {
   display: inline-block;
 }
@@ -86,17 +82,16 @@ li {
   width: 100%;
 }
 
+.col-33 {
+  width: calc(100% / 3);
+}
+
 .col-40 {
   width: 40%;
 }
 
 .col-60 {
   width: 60%;
-}
-
-#explanation .row {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .nav-list {
@@ -114,19 +109,110 @@ i {
   padding-top: 230px;
 }
 
-button {
-  display: flex;
-  padding-top: 3px;
-}
-
 /* PLAN */
 
-#plan {
+#plan .container {
   margin-top: 200px;
-  width: 100%;
-  display: flex;
+  max-width: 800px;
 }
 
-#plan > .col-100 > .button {
+h4 {
+  display: flex;
+  justify-content: center;
+  border-style: groove;
+  margin-bottom: 30px;
+}
+
+h3 {
   display: inline-block;
+  margin-bottom: 20px;
+}
+
+#plan .card {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+#plan .card-full {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.title-card {
+  margin: 20px;
+}
+
+.price {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.month {
+  margin-top: 5px;
+  margin-left: 20px;
+  color: grey;
+}
+.list-plan {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.btn-plan {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.border-box {
+  border: 1px solid black;
+}
+
+.alternative {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.line-border {
+  border: 1px inset grey;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 50px;
+}
+
+.title-highlites {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.highlites {
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 300px;
+}
+
+.card-full {
+  width: 100%;
+}
+
+.sales-office {
+  margin-left: 18px;
+}
+
+.title-office {
+  margin-left: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph {
+  margin-top: 15px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.button-sales {
+  margin-right: 20px;
 }
