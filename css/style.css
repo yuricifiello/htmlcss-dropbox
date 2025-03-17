@@ -258,3 +258,29 @@ h3 {
   margin-top: 40px;
   color: blue;
 }
+
+#page-footer .container-xl {
+  width: 100%;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.title-dropbox {
+  color: white;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+
+.title-product {
+  color: white;
+  margin-top: 150px;
+}
+
+.info {
+  color: rgb(159 169 166);
+  margin-top: 20px;
+}
